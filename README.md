@@ -39,7 +39,7 @@ This project includes the following components:
 Before getting started, ensure you have the following software and libraries installed:
 
 - Python (>=3.6)
-- TensorFlow or PyTorch for deep learning models
+- PyTorch for deep learning models
 - PySyft for federated learning
 - Pandas and NumPy for data manipulation
 - Matplotlib and Seaborn for visualization
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/federated-learning-alzheimers.git
+git clone https://github.com/adlard07/Federated-Learning.git
 cd federated-learning-alzheimers
 ```
 
@@ -68,7 +68,7 @@ cd federated-learning-alzheimers
 
 ## Data
 
-The dataset used in this project is an Alzheimer's dataset that can be accessed from [source link](https://example-data-source.com). You should download and place the data in the `data` directory. The data includes various medical features and labels related to Alzheimer's diagnosis.
+The dataset used in this project is an Alzheimer's dataset that can be accessed from [source link](https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images). You should download and place the data in the `data` directory. The data includes various medical features and labels related to Alzheimer's diagnosis.
 
 ## Federated Learning
 
@@ -76,23 +76,17 @@ In the `federated_learning` directory, you will find code for setting up the fed
 
 ## Training
 
-The `train.py` script provides a command-line interface for training federated learning models. You can specify the model architecture, training parameters, and other options.
+The `model_train.py` script provides a command-line interface for training federated learning models. You can specify the model architecture, training parameters, and other options.
 
 Example usage:
 
 ```bash
-python train.py --model cnn --epochs 10 --lr 0.001
+python model_train.py --model cnn --epochs 10 --lr 0.001
 ```
 
 ## Evaluation
 
 The `evaluate.py` script allows you to evaluate the trained models on various metrics such as accuracy, precision, recall, and F1-score.
-
-Example usage:
-
-```bash
-python evaluate.py --model_path saved_models/model.pth
-```
 
 ## Results
 
@@ -102,10 +96,5 @@ The project results and visualizations will be stored in the `results` directory
 
 Contributions to this project are welcome! If you have ideas for improving the federated learning approach for Alzheimer's classification or other enhancements, please open an issue or submit a pull request.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Thank you for showing interest in the Federated Learning on Alzheimer's Dataset project. We hope that this project contributes to the development of privacy-preserving machine learning solutions for healthcare applications. Feel free to reach out to us with any questions or feedback.
+Thank you for showing interest in the Federated Learning on Alzheimer's Dataset project. We hope that this project contributes to the development of privacy-preserving machine learning solutions for healthcare applications. Feel free to reach out to me at adelarddcunha07@gmail.com with any questions or feedback.
