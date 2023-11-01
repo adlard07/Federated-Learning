@@ -1,4 +1,4 @@
-# Federated Learning on Alzheimer's Dataset
+# Federated Learning on Alzheimer
 
 ## Table of Contents
 
